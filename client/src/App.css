@@ -1,38 +1,41 @@
-.App {
-  text-align: center;
+h2 {
+	margin: 10px 0;
+	padding: 0;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+form {
+	width: 75%;
+	margin: 0 auto;
+	background: rgba(255, 255, 255, 0.7);
+	padding: 20px;
+	margin-bottom: 40px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+label {
+	min-width: 100px;
+	display: inline-block;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.formWrap {
+	margin-bottom: 10px;
 }
 
-.App-link {
-  color: #61dafb;
+#bookingsGrid {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.update-form {
+	margin: 0;
+	padding: 0px;
+}
+
+#button {
+	margin: 0 5px; 
+	height: 30px;
+}
+
+#delete-button:hover {
+	border: solid 2px red;
 }
